@@ -1,0 +1,30 @@
+{
+  "name": "ratpack-slackbot",
+  "version": "1.0.0",
+  "description": "A bot for the secret ratpack organization.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "start": "npm run build && node build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcartertwo/ratpack-slackbot.git"
+  },
+  "author": "Daniel Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcartertwo/ratpack-slackbot/issues"
+  },
+  "homepage": "https://github.com/dcartertwo/ratpack-slackbot#readme",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "config": "^1.24.0",
+    "firebase-admin": "^4.0.5",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
+    "slackbots": "^1.0.2"
+  }
+}

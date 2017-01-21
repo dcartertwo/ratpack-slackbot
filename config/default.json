@@ -1,0 +1,11 @@
+{
+  "bot":{
+    "token": "change me",
+    "name": "change me",
+    "channel": "general"
+  },
+  "firebase": {
+    "credential": "change me",
+    "databaseUrl": "change me"
+  }
+}
